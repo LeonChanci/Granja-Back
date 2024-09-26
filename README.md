@@ -1,8 +1,13 @@
 # Granja-Back
  Proyecto Poli Granja-Back - Spring Boot - Spring Data JPA - MySQL
 
+This project was compiled with Java 17
 
-PROYECTO
+## Development server
+
+The server. Navigate to `http://localhost:9090/`.
+
+## PROYECTO
 
 La Granja S.A. es un centro porcino que lo contrata para desarrollar una solución web que utilice el Modelo por capas (Modelo Vista Controlador) y utilice al menos una de estas estructuras: ARRAYLIST, archivo, arreglo de objetos o Base de Datos.
 Actualmente sus procesos de registros y control de información son muy manuales y se lleva a través de un archivo en MS Excel. Según solicitud del administrador, requiere que toda la información esté dentro de una aplicación web que le facilite mejor control sobre los datos y generación de informes a través de vista o tablas. La información que suministra el centro está relacionada con:
@@ -17,4 +22,7 @@ Crear CRUD sobre la información referenciada anteriormente.
 Desarrollar un reporte sobre clientes y porcinos.
 Aprendizaje independiente.
 
-
+## Info
+Proyecto by Politecnico Colimbiano Jaime Isaza Cadavid
+Signature: PROGRAMACIÓN DISTRIBUIDA Y PARALELA
+Teacher: Hernando Recaman Chaux
