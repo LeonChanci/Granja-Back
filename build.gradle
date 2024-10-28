@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.spring.granjaporcina'
-version = '1.0'
+version = '1.0.0-SNAPSHOT'
 
 java {
 	sourceCompatibility = '17'
