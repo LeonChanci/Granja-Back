@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/granja.jar
+web: java -Dserver.port=$PORT -jar build/libs/granja-0.0.1-SNAPSHOT.jar
