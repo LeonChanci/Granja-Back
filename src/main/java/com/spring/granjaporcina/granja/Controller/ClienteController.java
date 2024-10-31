@@ -43,9 +43,9 @@ public class ClienteController {
 
     //--------------PUT-------------------//
     @PutMapping
-    public ResponseEntity<ClienteEntity> update(@RequestBody ClienteEntity porcino){
-        if (porcino.getIdCliente() != null && this.clienteService.exist(porcino.getIdCliente())){
-            return new ResponseEntity<>(this.clienteService.save(porcino), HttpStatus.OK);
+    public ResponseEntity<ClienteEntity> update(@RequestBody ClienteEntity cliente){
+        if (cliente.getIdCliente() != null && this.clienteService.exist(cliente.getIdCliente())){
+            return new ResponseEntity<>(this.clienteService.save(cliente), HttpStatus.OK);
         }
         return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
     }
